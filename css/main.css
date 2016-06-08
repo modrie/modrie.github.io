@@ -1,5 +1,5 @@
 * {
-  font-family: 'Quattrocento', serif; 
+  font-family: 'Quattrocento', serif;
 }
 
 
@@ -9,4 +9,12 @@ body {
     width: 60%;
     padding: 10px;
     font-family: 'Quattrocento', serif;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.5em;
 }
