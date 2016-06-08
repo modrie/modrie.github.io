@@ -2,14 +2,6 @@
   font-family: 'Quattrocento', serif;
 }
 
-
-body {
-    background-color: #51819C;
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-}
-
 h1 {
     font-size: 3.5em;
 }
@@ -20,6 +12,10 @@ h2 {
 
 .intro {
   padding-top: 30%;
+  background-color: #51819C;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
 }
 
 .left {
