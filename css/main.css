@@ -1,11 +1,12 @@
+* {
+  font-family: 'Quattrocento', serif; 
+}
+
+
 body {
     background-color: #51819C;
     margin: auto;
     width: 60%;
     padding: 10px;
     font-family: 'Quattrocento', serif;
-}
-
-.center {
-  
 }
