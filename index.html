@@ -4,6 +4,17 @@
 		<title>Chris Chen</title>
     <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script>
+      openCity("about");
+      function expen(tab) {
+          var i;
+          var x = document.getElementsByClassName("me");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          document.getElementById(me).style.display = "block";
+      }
+    </script>
   </head>
   <body>
     <div class="intro">
@@ -11,8 +22,32 @@
         <h1 align="center">Chris Chen</h1>
         <h2 align="center">UIUC 2018</h2>
         <h2 align="center">electrical engineering ; engineering physics</h2>
+        <ul class="w3-navbar">
+          <li><a href="#" onclick="expen('about')">about</a></li>
+          <li><a href="#" onclick="expen('coursework')">coursework</a></li>
+          <li><a href="#" onclick="expen('resume')">resume</a></li>
+          <li><a href="#" onclick="expen('calendar')">calendar</a></li>
+        </ul>
       </div>
       <div class="right">
+        <div id="about" class="me">
+          <h2>about me</h2>
+          <p>Hi, my name is Chris. I'm a third year student at UIUC, studying electrical engineering and engineering physics.</p>
+        </div>
+
+        <div id="coursework" class="me">
+          <h2>coursework</h2>
+        </div>
+
+        <div id="resume" class="me">
+          <h2>resume</h2>
+          <embed src="assets/fires.pdf" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+        </div>
+
+        <div id="calendar" class="me">
+          <h2>calendar</h2>
+          <p>work in progress</p>
+        </div>
       </div>
     </div>
 	</body>
