@@ -26,6 +26,8 @@ h2 {
   float: left;
   height: 100%;
   overflow: auto;
+  background-color: #518100;
+
 }
 
 .right {
