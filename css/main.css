@@ -16,12 +16,11 @@ h2 {
 }
 
 .intro {
-  margin: auto;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .left {
-  padding-top: 10%;
   width: 25%;
   float: left;
   height: 100%;
